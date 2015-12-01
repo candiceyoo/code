@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>GA Application</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<style>
+
+body {
+	background-color: #333333;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 800px;
+	background-color: #fff;
+	padding: 10px;
+
+}
+
+</style>
+
+<!--Start Body-->
+
+<body>
+
+<h1>GA Application</h1>
+
+<div id="container">
+
+	<form id="demo-form" parsley-validate>
+
+		<p><label for="fname">First Name:</label><input type="text" name="fname" id="fname" required /></p>
+		<p><label for="lname">Last Name:</label><input type="text" name="lname" id="lname" parsley-trigger="change" required/></p>
+		<p><label for="mname">Middle Initial:</label><input type="text" name="mname" id="mname" /></p>
+		<p><label for="email">Email:</label><input type="email" name="email" id="email" parsley-trigger="change" required /></p>
+		<p><label for="bday">Birthday:</label>
+			<label for="month"></label>
+			<select id="bday">
+				<option value=="month">Month</option>
+				<option value=="CA">January</option>
+				<option value=="CA">Feburary</option>
+				<option value=="DE">March</option>
+				<option value=="AZ">April</option>
+				<option value=="GU">May</option>
+			</select>
+			<label for="month"></label>
+			<select id="bday">
+				<option value=="CA">Date</option>
+				<option value=="CA">2</option>
+				<option value=="DE">3</option>
+				<option value=="AZ">4</option>
+				<option value=="GU">5</option>
+			</select>
+			<label for="month"></label>
+			<select id="bday">
+				<option value=="CA">Year</option>
+				<option value=="CA">1988</option>
+				<option value=="DE">1989</option>
+				<option value=="AZ">1920</option>
+				<option value=="GU">1921/option>
+			</select>
+		</p>
+		<p><label for="classes">Select Class:</label>
+			<select id="classes">
+				<option value=="CA">Front End Development</option>
+				<option value=="CA">UI/UX</option>
+				<option value=="DE">Design 101</option>
+				<option value=="AZ">Design Intensive</option>
+				<option value=="GU">Kitty Plush Making</option>
+			</select>
+		</p>
+		<p>Please share what you expect from the class(es):<br>
+			<textarea id="comment" rows="10" cols="50"></textarea>
+		</p>
+
+		<p><label for="classes">Please upload your resume:</label>
+
+		<p><input type="submit" name="submit" placeholder="submit-that" value="Submit" /></p>
+
+	</form>
+
+
+</div>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="parsley.js"></script>
+
+</body>
+</html>

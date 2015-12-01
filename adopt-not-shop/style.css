@@ -1,0 +1,2038 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Amaranth:400,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Creepster);
+@import url(http://fonts.googleapis.com/css?family=Butcherman);
+@import url(http://fonts.googleapis.com/css?family=Eater);
+
+
+
+body, html{
+	margin: 0;
+	padding: 0px;
+	height:100%;
+	background: #57c59e;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 70px;
+	color: #f15956;
+	margin: auto 0;
+	line-height: 90px;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 55px;
+	color: #f15956;
+	margin: auto 0;
+}
+
+h3 {
+	font-family: 'Amaranth', sans-serif;
+	font-size: 35px;
+	color: #fff;
+	margin-top: 0px;
+}
+
+
+ul li {
+	list-style-type: none;
+}
+
+#container {
+	text-align: center;
+	margin: 0 auto;
+	background: #57c59e;
+}
+
+
+
+.infopage {
+	max-width: 1200px;
+	width: 100%;
+	text-align: center;
+}
+
+
+#textbox {
+	background: url();
+	text-align: center;
+	width: 100%;
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+/*page 1 - titlepage*/
+
+#titlepage {
+	background: no-repeat fixed;
+	background-color: #57c59e;
+	height: 1000px;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
+
+.title {
+	text-align: center;
+	margin: auto 0;
+	padding-top: 200px;
+}
+
+.titleimg {
+	top: 0px;
+	max-width: 916px;
+	max-height: 250px;
+	width: 100%;
+	height: 100%;
+}
+
+.contentarea {
+	float: left;
+    width: 100%;
+    margin: auto 0;
+	text-align: center;
+}
+
+.intromitzy {
+	max-width: 576px;
+	width: 100%;
+}
+
+.intropenny {
+	max-width: 576px;
+	width: 100%;
+}
+
+/*page 2*/
+
+#page2 {
+	background: url(../images/pg2bg.png) 50% 80% no-repeat;
+	text-align: center;
+	height: 2086px;
+	/* height: 100%; */
+	margin-top: 900px;
+	width: 100%;
+	position: relative;
+	z-index: 11;
+	overflow: hidden;
+}
+
+
+#inshelter{
+
+}
+
+#textbox2 {
+	margin-top: 200px;
+}
+
+#contain2 {
+	overflow: hidden;
+	height: 850px;	
+	max-width: 1900px;
+	width: 100%;
+	margin: auto 0;
+	margin-top: 150px;
+}
+
+#shelterbar {
+	position: relative;
+	top: 100px;
+	z-index: 10;
+	max-width: 1900px;
+	width: 100%;
+}
+
+#cagebg {
+	background: url(../images/shelterbg.png) no-repeat;
+	top: -423px;
+	position: relative;
+	max-width: 1900px;
+	width: 100%;
+	z-index: 1;
+}
+
+.otheranimals {
+	position: relative;
+	top: 102px;
+	max-width: 1900px;
+	width: 100%;
+}
+
+.puppiescage {
+	position: relative;
+	top: -160px;
+	left: 554px;
+	max-width: 211px;
+	width: 100%;
+	/*top: 700px; */
+}
+
+/*page 3*/
+
+
+#page3 {
+	background: url(../images/pg3bg.png) 50% 80% no-repeat;
+	text-align: center;
+	height: 1652px;
+	/* height: 100%; */
+	top: -600px;
+	max-width: 100%;
+	position: relative;
+	z-index: 12;
+	overflow: hidden;
+}
+
+#contain3 {
+	overflow: hidden;
+	height: 626px;	
+	max-width: 1900px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	top: 28px;
+}
+
+#textbox2 {
+	padding-top: 100px;
+}
+
+.threecircles {
+	float: left;
+}
+.threecircles div {
+	float: left;
+}
+
+.circle1 {
+	position: relative;
+	left: 140px;
+}
+
+.circle2 {
+	position: relative;
+	left: 340px;
+}
+
+.circle3 {
+	position: relative;
+	left: 410px;
+}
+
+
+/*page 4*/
+
+#page4 {
+	background: url(../images/pg4bg.png) 50% 0% no-repeat #ef5b59;
+	text-align: center;
+	height: 1763px;
+	/*height: 120%;*/
+	top: -1350px;
+	position: relative;
+	width: 100%;
+	z-index: 9;
+	overflow: hidden;
+}
+
+
+.pg4h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 55px;
+	color: #fff;
+}
+
+#contain4 {
+	overflow: hidden;
+	height: auto;	
+	width: 1900px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.sidefaces img {
+	position: relative;
+}
+
+.mitzy {
+	margin-top: 800px;
+}
+
+.penny {
+	margin-top: 800px;
+
+}
+
+#textbox4 {
+	padding-top: 110px;
+} 
+
+
+/*page 5*/
+
+#page5 {
+	background: url(../images/pg5bg.png) 50% 0% no-repeat;
+	text-align: center;
+	height: 1579px;
+	/*height: 120%;*/
+	top: -1500px;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+	overflow: hidden;
+}
+
+#contain5 {
+	overflow: hidden;
+	height: 726px;
+	width: 1900px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+
+.friends {
+	float: left;
+}
+
+.friends div {
+	float: left;
+}
+
+.corgi {
+	top: 150px;
+	left: 692px;
+	position: relative;
+	z-index: 40;
+}
+
+.husky {
+	top: -150px;
+	position: relative;
+	left: -260px;
+	z-index: 20;
+}
+
+.kitty {
+	top: 350px;
+	left: 461px;
+	position: relative;
+	z-index: 30;
+}
+
+
+#textbox5 {
+	padding-top: 200px;
+}
+
+
+
+/*page 6*/
+
+#page6 {
+	background: url(../images/pg6bg.jpg) 50% 0% no-repeat #2e353e;
+	text-align: center;
+	height: 2731px;
+	/*height: 120%;*/
+	top: -1700px;
+	position: relative;
+	width: 100%;
+	z-index: 3;
+	overflow: hidden;
+}
+
+#textbox6 {
+	padding-top: 350px;
+}
+
+#contain6 {
+	overflow: hidden;
+	height: 1022px;
+	width: 1900px;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+}
+
+.balloons {
+	overflow: hidden;
+	margin: auto 0;
+	text-align: center;
+	width: 100%;
+	height: 500px;
+}
+
+.balloons img {
+	float: left;
+
+}
+
+.puppytalk1 {
+	font-family: 'Creepster', cursive;
+	font-size: 50px;
+	padding: 25px 0px 35px;
+	color: #5ec7cb;
+}
+
+.puppytalk2 {
+	font-family: 'Eater', cursive;
+	font-size: 48px;
+	color: #999cff;
+}
+
+.puppytalk3 {
+	font-family: 'Butcherman', cursive;
+	font-size: 100px;
+	color: #ef5b59;
+}
+
+.puppysay1 {
+	position: relative;
+	left: 448px;
+	top: 239px;
+}
+
+.puppysay2 {
+	position: relative;
+	left: 423px;
+}
+
+.puppysay3 {
+	position: relative;
+	left: 342px;
+	top: 240px;
+}
+
+.puppysay4 {
+	position: relative;
+	top: 24px;
+	left: 197px;
+}
+
+.puppysay5 {
+	position: relative;
+	left: 230px;
+	top: 170px;
+}
+
+
+.shelterdogs {
+	float: left;
+	overflow: hidden;
+	height: 636px;
+	top: 500px;;
+}
+
+.shelterdogs img {
+	float: left;
+}
+
+.puppy1 {
+	position: relative;
+	left: 84px;
+}
+
+.puppy2 {
+	position: relative;
+	left: -10px;
+	top: 182px;
+}
+
+.puppy3 {
+	position: relative;
+	left: -20px;
+	top: 121px;
+}
+
+.puppy4 {
+	position: relative;
+	left: -2px;
+	top: 40px;
+}
+
+.puppy5 {
+	position: relative;
+	left: 10px;
+	top: 60px;
+}
+
+/*page 7*/
+
+#page7 {
+	background: url(../images/pg7bg.png) 50% 0% no-repeat;
+	text-align: center;
+	height: 1660px;
+	/*height: 120%;*/
+	top: -2430px;
+	position: relative;
+	width: 100%;
+	z-index: 3;
+	overflow: hidden;
+}
+
+#scaryneedle{}
+
+
+#textbox7 {
+	background: url(../images/pg7textbox.png) 50% 0% no-repeat;
+	overflow: hidden;
+	height: 289px;	
+	width: 1900px;
+	margin: 0 auto;
+	z-index: 40;
+	padding-top: 15px;
+}
+
+.pg7h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 55px;
+	color: #f15956;
+	margin:0 auto;
+}
+
+.pg7h3 {
+	font-family: 'Amaranth', sans-serif;
+	font-size: 35px;
+	color: #2e353e;
+	margin: 0 auto;
+	width: 626px;
+}
+
+#contain7 {
+	overflow: hidden;
+	height: 1022px;
+	width: 1900px;
+	margin: auto 0;
+	position: relative;
+}
+
+.puppiesscared {
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	height: 800px;
+}
+
+.syringe {
+	position: relative;
+	left: 539px;
+	top: 30px;
+	z-index: 900;
+}
+
+.miniburst {
+	position: relative;
+	left: 380px;
+	top: -110px;
+}
+
+.sweat {
+	position: relative;
+	left: -527px;
+	top: 137px;
+}
+
+.pennypg7 {
+	position: relative;
+	left: -652px;
+	top: 487px;
+}
+
+.sweat2 {
+	position: relative;
+	left: -65px;
+	top: 135px;
+}
+
+.mitzypg7 {
+	position: relative;
+	left: 352px;
+	top: 79px;
+}
+
+.bigburst {
+	position: relative;
+	z-index: -12;
+	top: -1486px;
+}
+
+
+
+
+/*page 8*/
+
+#page8 {
+	background: url(../images/pg8bg.jpg) 50% 0% no-repeat;
+	text-align: center;
+	height: 2384px;
+	/*height: 120%;*/
+	top: -3000px;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+	overflow: hidden;
+	padding-top: 900px;
+}
+
+#textbox8 {
+	background: url(../images/pg8textbox.png) 50% 0% no-repeat;
+	height: 289px;	
+	width: 1900px;
+	margin: 0 auto;
+	z-index: 90;
+	overflow: hidden;
+	padding-top: 15px;
+}
+
+.pg8h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 55px;
+	color: #f15956;
+}
+
+.pg8h3 {
+	font-family: 'Amaranth', sans-serif;
+	font-size: 35px;
+	color: #999;
+	margin: 0 auto;
+	width: 626px;
+}
+
+.contain8 {
+	overflow: hidden;
+	height: 260px;
+	width: 1900px;
+	width: 100%;
+	margin: auto 0;
+	position: relative;
+}
+
+.pennyback {
+	position: relative;
+	z-index: 40;
+	top: 500px;
+}
+
+.mitzyback {
+	position: relative;
+	z-index: 40;
+	top: 500px;
+}
+
+.barspg8 {
+	position: relative;
+	top: -4900px;
+	z-index: -20;
+}
+
+.walkingppl1 {
+	position: relative;
+	top: -1213px;
+	left: 500px;
+	z-index: -20;
+}
+
+.walkingppl2 {
+	position: relative;
+	top: -2806px;
+	left: -1090px;
+	z-index: -30;
+}
+
+/*page 9*/
+
+#page9 {
+	background: url(../images/pg9bg.jpg) 50% 0% no-repeat;
+	text-align: center;
+	height: 2730px;
+	/*height: 120%;*/
+	top: -4000px;
+	position: relative;
+	width: 100%;
+	z-index: 4;
+	overflow: hidden;
+}
+
+#textbox9 {
+	background: url(../images/pg9textbox.png) 50% 0% no-repeat;
+	height: 289px;	
+/*	width: 1900px;*/
+	margin: 0 auto;
+	z-index: 90;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+#textbox9 h2 {
+	margin-top: 40px;
+	font-size: 100px;
+}
+
+.contain9 {
+	overflow: hidden;
+	height: 1900px;
+	width: 1900px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#ownercircle {
+	background: url(../images/circlepg9.png) 50% 0% no-repeat;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 1195px;
+	width: 100%;
+	height: 1194px;
+	position: relative;
+	top: -100px;
+	z-index: -1;
+}
+
+.eeybrows {
+	position: relative;
+	top: 100px;
+	z-index: 30;
+	left: -20px;
+}
+
+.humanface {
+	position: relative;
+	top: -154px;
+	left: 16px;
+}
+
+.humanbody {
+	position: relative;
+}
+
+.pennybackbig {
+	position: relative;
+	top: -400px;
+}
+
+.mitzybackbig {
+	position: relative;
+	top: -400px;
+}
+
+
+
+/*page 10*/
+
+#page10 {
+	background: url(../images/pg10bg.png) 50% 0% no-repeat;
+	text-align: center;
+	height: 2118px;
+	/*height: 120%;*/
+	top: -4700px;
+	position: relative;
+	width: 100%;
+	z-index: 6;
+	overflow: hidden;
+}
+
+#contain10 {
+	overflow: hidden;
+	height: 1600px;
+	width: 1900px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	top: 500px
+}
+
+#newhomecircle {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.arms {
+	position: relative;
+	margin: 0 auto;
+	top: 61px;
+	left: 1px;
+}
+
+.happy {
+	position: relative;
+	margin: 0 auto;
+	top: -613px;
+	z-index: -8;
+}
+
+.circlepg10 {
+	position: relative;
+	margin: 0 auto;
+	top: -1427px;
+	z-index: -9;
+}
+
+#textbox10 {
+	padding-top: 200px;
+}
+
+
+
+/*page 11*/
+
+#page11 {
+	background: url(../images/pg11bg.png) 50% 0% no-repeat;
+	text-align: center;
+	height: 1220px;
+	/*height: 120%;*/
+	top: -4700px;
+	position: relative;
+	width: 100%;
+	z-index: 6;
+	overflow: hidden;
+}
+
+.infopagetext {
+	height: 1200px;	
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 90;
+	overflow: hidden;
+	margin-top: 200px;
+}
+
+.para1 {
+	position: relative;
+	top: 0px;
+}
+
+.para2 {
+	position: relative;
+	top: 0px;
+}
+
+.para {
+	position: relative;
+	top: 0px;
+}
+
+/*page 12*/
+
+#page12 {
+	background-color: #57c59e;
+	text-align: center;
+	height: 1400px;
+	/*height: 120%;*/
+	top: -5000px;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+	overflow: hidden;
+}
+
+#textbox12 {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 90;
+	overflow: hidden;
+	margin-top: 350px;
+	height: 400px;
+}
+
+#textbox12 h3 {
+	margin-top: 30px;
+}
+
+#contain12 {
+	overflow: hidden;
+	height: 1100px;
+	width: 1900px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 40px;
+}
+
+.arms {
+	z-index: 90;
+}
+
+#signup {
+	background: url(../images/invitation.png) no-repeat;
+	width: 736px;
+	height: 450px;
+	margin: 0 auto;
+	top: -700px;
+}
+
+#signup h2 {
+	padding-top: 80px;
+}
+
+.form {
+	margin-top: 30px;
+}
+
+.pennyarm {
+	position: relative;
+	top: -200px;
+	left: -100px;
+}
+
+.mitzypaw {
+	position: relative;
+	top: -200px;
+	left: 100px;
+}
+
+.credit {
+	padding-top: 10px;
+	font-family: 'Arvo', serif;
+	font-size: 12px;
+}
+
+
+input.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+
+input.rounded.btn {
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+
+input.rounded:focus {
+	border-color: #339933;
+}
+
+/* media queries for different screen sizes here */
+
+/* ipad portrait styles */
+@media only screen and (max-width: 768px) {
+	
+	img {
+		max-width: 100%
+	}
+
+	
+
+	h1 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	h2 {
+		font-family: 'Pacifico', cursive;
+		font-size: 35px;
+		color: #f15956;
+		margin: auto 0;
+	}
+
+	h3 {
+		font-family: 'Amaranth', sans-serif;
+		font-size: 25px;
+		color: #fff;
+		margin-top: 0px;
+	}
+
+	.infopage {
+		max-width: 768px;
+	}
+
+	/*page 1 - titlepage*/
+
+	#titlepage {
+		height: 1000px;
+	}
+
+	.title {
+		padding-top: 200px;
+	}
+
+	.titleimg {
+		width: 80%;
+	}
+
+	.intromitzy {
+		width: 40%;
+	}
+
+	.intropenny {
+		width: 40%;
+	}
+
+
+	/*page 2*/
+
+	#page2 {
+		height: 2086px;
+		margin-top: 800px;
+	}
+
+	#textbox2 {
+		margin-top: 100px;
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#contain2 {
+		height: 850px;	
+		width: 768px;
+		margin-top: 150px;
+	}
+
+	#shelterbar {
+		top: 100px;
+		width: 100%;
+	}
+
+	#cagebg {
+		top: -423px;
+		width: 99%;
+	}
+
+	.otheranimals {
+		top: 102px;
+		width: 99%;
+	}
+
+	.puppiescage {
+		top:-160px;
+		width: 99%;
+	}
+
+	/*page 3*/
+
+
+	#page3 {
+		height: 1652px;
+		top: -600px;
+	}
+
+	#contain3 {
+		height: 626px;	
+		width: 1900px;
+		top: 28px;
+	}
+
+	#textbox2 {
+		padding-top: 100px;
+	}
+
+
+	.circle1 {
+		left: 280px;
+	}
+
+	.circle2 {
+		left: 340px;
+	}
+
+	.circle3 {
+		left: 410px;
+	}
+
+
+	/*page 4*/
+
+	#page4 {
+		height: 1763px;
+		top: -1350px;
+	}
+
+
+	.pg4h2 {
+		font-size: 55px;
+	}
+
+	#contain4 {
+		width: 1900px;
+	}
+
+	.mitzy {
+		margin-top: 800px;
+	}
+
+	.penny {
+		margin-top: 800px;
+
+	}
+
+	#textbox4 {
+		padding-top: 110px;
+	} 
+
+
+	/*page 5*/
+
+	#page5 {
+		height: 1579px;
+		top: -1500px;
+	}
+
+	#contain5 {
+		height: 726px;
+		width: 1900px;
+		top: 100px;
+	}
+
+	.corgi {
+		top: 150px;
+		left: 692px;
+	}
+
+	.husky {
+		top: -150px;
+		left: -260px;
+	}
+
+	.kitty {
+		top: 350px;
+		left: 461px;
+	}
+
+
+	#textbox5 {
+		padding-top: 200px;
+	}
+
+
+
+	/*page 6*/
+
+	#page6 {
+		height: 2731px;
+		top: -1700px;
+	}
+
+	#textbox6 {
+		padding-top: 350px;
+	}
+
+	#contain6 {
+		height: 1022px;
+		width: 1900px;
+		top: 20px;
+	}
+
+	.balloons {
+		height: 500px;
+	}
+
+	.puppytalk1 {
+		font-size: 50px;
+		color: #5ec7cb;
+	}
+
+	.puppytalk2 {
+		font-size: 48px;
+	}
+
+	.puppytalk3 {
+		font-size: 100px;
+	}
+
+	.puppysay1 {
+		left: 448px;
+		top: 239px;
+	}
+
+	.puppysay2 {
+		left: 423px;
+	}
+
+	.puppysay3 {
+		left: 342px;
+		top: 240px;
+	}
+
+	.puppysay4 {
+		top: 24px;
+		left: 197px;
+	}
+
+	.puppysay5 {
+		left: 230px;
+		top: 170px;
+	}
+
+
+	.shelterdogs {
+		height: 636px;
+		top: 500px;;
+	}
+
+	.puppy1 {
+		left: 84px;
+	}
+
+	.puppy2 {
+		left: -10px;
+		top: 182px;
+	}
+
+	.puppy3 {
+		left: -20px;
+		top: 121px;
+	}
+
+	.puppy4 {
+		left: -2px;
+		top: 40px;
+	}
+
+	.puppy5 {
+		left: 10px;
+		top: 60px;
+	}
+
+	/*page 7*/
+
+	#page7 {
+		height: 1660px;
+		top: -2430px;
+	}
+
+	#scaryneedle{}
+
+
+	#textbox7 {
+		height: 289px;	
+		width: 1900px;
+	}
+
+	.pg7h2 {
+		font-size: 55px;
+	}
+
+	.pg7h3 {
+		font-size: 35px;
+		width: 626px;
+	}
+
+	#contain7 {
+		height: 1022px;
+		width: 1900px;
+	}
+
+	.puppiesscared {
+		height: 800px;
+	}
+
+	.syringe {
+		left: 539px;
+		top: 30px;
+	}
+
+	.miniburst {
+		left: 380px;
+		top: -110px;
+	}
+
+	.sweat {
+		left: -527px;
+		top: 137px;
+	}
+
+	.pennypg7 {
+		left: -652px;
+		top: 487px;
+	}
+
+	.sweat2 {
+		left: -65px;
+		top: 135px;
+	}
+
+	.mitzypg7 {
+		left: 352px;
+		top: 79px;
+	}
+
+	.bigburst {
+		top: -1456px;
+	}
+
+
+
+
+	/*page 8*/
+
+	#page8 {
+		height: 2384px;
+		top: -3000px;
+		padding-top: 900px;
+	}
+
+	#textbox8 {
+		height: 289px;	
+		width: 1900px;
+
+	}
+
+	.pg8h2 {
+		font-size: 55px;
+	}
+
+	.pg8h3 {
+		font-size: 35px;
+		width: 626px;
+	}
+
+	.contain8 {
+		height: 260px;
+		width: 1900px;
+	}
+
+	.pennyback {
+		top: 500px;
+	}
+
+	.mitzyback {
+		top: 500px;
+	}
+
+	.barspg8 {
+		top: -4900px;
+	}
+
+	.walkingppl1 {
+		top: -1213px;
+		left: 500px;
+	}
+
+	.walkingppl2 {
+		top: -2806px;
+		left: -1090px;
+	}
+
+	/*page 9*/
+
+	#page9 {
+		height: 2730px;
+		top: -4000px;
+	}
+
+	#textbox9 {
+		height: 289px;	
+		margin-top: 100px;
+	}
+
+	#textbox9 h2 {
+		margin-top: 40px;
+		font-size: 100px;
+	}
+
+	.contain9 {
+		height: 1900px;
+		width: 1900px;
+	}
+
+	#ownercircle {
+		width: 1195px;
+		height: 1194px;
+		top: -100px;
+	}
+
+	.eeybrows {
+		top: 100px;
+		left: -20px;
+	}
+
+	.humanface {
+		top: -154px;
+		left: 16px;
+	}
+
+	.pennybackbig {
+		top: -400px;
+	}
+
+	.mitzybackbig {
+		top: -400px;
+	}
+
+
+
+	/*page 10*/
+
+	#page10 {
+		height: 2118px;
+		top: -4700px;
+	}
+
+	#contain10 {
+		height: 1600px;
+		width: 1900px;
+		top: 500px
+	}
+
+	.arms {
+		top: 61px;
+		left: 1px;
+	}
+
+	.happy {
+		top: -613px;
+	}
+
+	.circlepg10 {
+		top: -1427px;
+	}
+
+	#textbox10 {
+		padding-top: 200px;
+	}
+
+
+
+	/*page 11*/
+
+	#page11 {
+		height: 1220px;
+		top: -4700px;
+	}
+
+	.infopagetext {
+		height: 1200px;	
+		max-width: 1000px;
+		margin-top: 200px;
+	}
+
+
+	/*page 12*/
+
+	#page12 {
+		height: 1400px;
+		top: -5000px;
+	}
+
+	#textbox12 {
+		max-width: 1000px;
+		margin-top: 350px;
+		height: 400px;
+	}
+
+	#textbox12 h3 {
+		margin-top: 30px;
+	}
+
+	#contain12 {
+		height: 1100px;
+		width: 1900px;
+		padding-top: 40px;
+	}
+
+	#signup {
+		width: 736px;
+		height: 450px;
+		top: -700px;
+	}
+
+	#signup h2 {
+		padding-top: 80px;
+	}
+
+	.form {
+		margin-top: 30px;
+	}
+
+	.pennyarm {
+		top: -200px;
+		left: -100px;
+	}
+
+	.mitzypaw {
+		top: -200px;
+		left: 100px;
+	}
+
+	.credit {
+		padding-top: 10px;
+		font-size: 12px;
+	}
+
+
+	input.rounded {
+		border: 1px solid #ccc;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		font-size: 20px;
+		padding: 4px 7px;
+		outline: 0;
+		-webkit-appearance: none;
+	}
+
+	input.rounded.btn {
+		border: 1px solid #ccc;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		font-size: 20px;
+		padding: 4px 7px;
+		outline: 0;
+		-webkit-appearance: none;
+	}
+
+	input.rounded:focus {
+		border-color: #339933;
+	}
+
+}
+
+/* for all iphone orientations */
+/* on the widths for these boxes, I made them less than 100% to account for the padding I added around the content and sidebar boxes (I didn't want the content to be touching the edge of the box. If your background was the same color as the content box, you could probably get away without this extra padding, and with making the widths 100% instead. */
+@media only screen and (max-width: 568px) {
+
+
+	.infopage {
+		max-width: 768px;
+	}
+
+	/*page 1 - titlepage*/
+
+	#titlepage {
+		height: 1000px;
+	}
+
+	.title {
+		padding-top: 200px;
+	}
+
+
+	/*page 2*/
+
+	#page2 {
+		height: 2086px;
+		margin-top: 900px;
+	}
+
+	#textbox2 {
+		margin-top: 200px;
+	}
+
+	#contain2 {
+		height: 850px;	
+		width: 1900px;
+		margin-top: 150px;
+	}
+
+	#shelterbar {
+		top: 100px;
+	}
+
+	#cagebg {
+		top: -423px;
+	}
+
+	.otheranimals {
+		top: 102px;
+	}
+
+	.puppiescage {
+		top:-160px;
+	}
+
+	/*page 3*/
+
+
+	#page3 {
+		height: 1652px;
+		top: -600px;
+	}
+
+	#contain3 {
+		height: 626px;	
+		width: 1900px;
+		top: 28px;
+	}
+
+	#textbox2 {
+		padding-top: 100px;
+	}
+
+
+	.circle1 {
+		left: 280px;
+	}
+
+	.circle2 {
+		left: 340px;
+	}
+
+	.circle3 {
+		left: 410px;
+	}
+
+
+	/*page 4*/
+
+	#page4 {
+		height: 1763px;
+		top: -1350px;
+	}
+
+
+	.pg4h2 {
+		font-size: 55px;
+	}
+
+	#contain4 {
+		width: 1900px;
+	}
+
+	.mitzy {
+		margin-top: 800px;
+	}
+
+	.penny {
+		margin-top: 800px;
+
+	}
+
+	#textbox4 {
+		padding-top: 110px;
+	} 
+
+
+	/*page 5*/
+
+	#page5 {
+		height: 1579px;
+		top: -1500px;
+	}
+
+	#contain5 {
+		height: 726px;
+		width: 1900px;
+		top: 100px;
+	}
+
+	.corgi {
+		top: 150px;
+		left: 692px;
+	}
+
+	.husky {
+		top: -150px;
+		left: -260px;
+	}
+
+	.kitty {
+		top: 350px;
+		left: 461px;
+	}
+
+
+	#textbox5 {
+		padding-top: 200px;
+	}
+
+
+
+	/*page 6*/
+
+	#page6 {
+		height: 2731px;
+		top: -1700px;
+	}
+
+	#textbox6 {
+		padding-top: 350px;
+	}
+
+	#contain6 {
+		height: 1022px;
+		width: 1900px;
+		top: 20px;
+	}
+
+	.balloons {
+		height: 500px;
+	}
+
+	.puppytalk1 {
+		font-size: 50px;
+		color: #5ec7cb;
+	}
+
+	.puppytalk2 {
+		font-size: 48px;
+	}
+
+	.puppytalk3 {
+		font-size: 100px;
+	}
+
+	.puppysay1 {
+		left: 448px;
+		top: 239px;
+	}
+
+	.puppysay2 {
+		left: 423px;
+	}
+
+	.puppysay3 {
+		left: 342px;
+		top: 240px;
+	}
+
+	.puppysay4 {
+		top: 24px;
+		left: 197px;
+	}
+
+	.puppysay5 {
+		left: 230px;
+		top: 170px;
+	}
+
+
+	.shelterdogs {
+		height: 636px;
+		top: 500px;;
+	}
+
+	.puppy1 {
+		left: 84px;
+	}
+
+	.puppy2 {
+		left: -10px;
+		top: 182px;
+	}
+
+	.puppy3 {
+		left: -20px;
+		top: 121px;
+	}
+
+	.puppy4 {
+		left: -2px;
+		top: 40px;
+	}
+
+	.puppy5 {
+		left: 10px;
+		top: 60px;
+	}
+
+	/*page 7*/
+
+	#page7 {
+		height: 1660px;
+		top: -2430px;
+	}
+
+	#scaryneedle{}
+
+
+	#textbox7 {
+		height: 289px;	
+		width: 1900px;
+	}
+
+	.pg7h2 {
+		font-size: 55px;
+	}
+
+	.pg7h3 {
+		font-size: 35px;
+		width: 626px;
+	}
+
+	#contain7 {
+		height: 1022px;
+		width: 1900px;
+	}
+
+	.puppiesscared {
+		height: 800px;
+	}
+
+	.syringe {
+		left: 539px;
+		top: 30px;
+	}
+
+	.miniburst {
+		left: 380px;
+		top: -110px;
+	}
+
+	.sweat {
+		left: -527px;
+		top: 137px;
+	}
+
+	.pennypg7 {
+		left: -652px;
+		top: 487px;
+	}
+
+	.sweat2 {
+		left: -65px;
+		top: 135px;
+	}
+
+	.mitzypg7 {
+		left: 352px;
+		top: 79px;
+	}
+
+	.bigburst {
+		top: -1456px;
+	}
+
+
+
+
+	/*page 8*/
+
+	#page8 {
+		height: 2384px;
+		top: -3000px;
+		padding-top: 900px;
+	}
+
+	#textbox8 {
+		height: 289px;	
+		width: 1900px;
+
+	}
+
+	.pg8h2 {
+		font-size: 55px;
+	}
+
+	.pg8h3 {
+		font-size: 35px;
+		width: 626px;
+	}
+
+	.contain8 {
+		height: 260px;
+		width: 1900px;
+	}
+
+	.pennyback {
+		top: 500px;
+	}
+
+	.mitzyback {
+		top: 500px;
+	}
+
+	.barspg8 {
+		top: -4900px;
+	}
+
+	.walkingppl1 {
+		top: -1213px;
+		left: 500px;
+	}
+
+	.walkingppl2 {
+		top: -2806px;
+		left: -1090px;
+	}
+
+	/*page 9*/
+
+	#page9 {
+		height: 2730px;
+		top: -4000px;
+	}
+
+	#textbox9 {
+		height: 289px;	
+		margin-top: 100px;
+	}
+
+	#textbox9 h2 {
+		margin-top: 40px;
+		font-size: 100px;
+	}
+
+	.contain9 {
+		height: 1900px;
+		width: 1900px;
+	}
+
+	#ownercircle {
+		width: 1195px;
+		height: 1194px;
+		top: -100px;
+	}
+
+	.eeybrows {
+		top: 100px;
+		left: -20px;
+	}
+
+	.humanface {
+		top: -154px;
+		left: 16px;
+	}
+
+	.pennybackbig {
+		top: -400px;
+	}
+
+	.mitzybackbig {
+		top: -400px;
+	}
+
+
+
+	/*page 10*/
+
+	#page10 {
+		height: 2118px;
+		top: -4700px;
+	}
+
+	#contain10 {
+		height: 1600px;
+		width: 1900px;
+		top: 500px
+	}
+
+	.arms {
+		top: 61px;
+		left: 1px;
+	}
+
+	.happy {
+		top: -613px;
+	}
+
+	.circlepg10 {
+		top: -1427px;
+	}
+
+	#textbox10 {
+		padding-top: 200px;
+	}
+
+
+
+	/*page 11*/
+
+	#page11 {
+		height: 1220px;
+		top: -4700px;
+	}
+
+	.infopagetext {
+		height: 1200px;	
+		max-width: 1000px;
+		margin-top: 200px;
+	}
+
+
+	/*page 12*/
+
+	#page12 {
+		height: 1400px;
+		top: -5000px;
+	}
+
+	#textbox12 {
+		max-width: 1000px;
+		margin-top: 350px;
+		height: 400px;
+	}
+
+	#textbox12 h3 {
+		margin-top: 30px;
+	}
+
+	#contain12 {
+		height: 1100px;
+		width: 1900px;
+		padding-top: 40px;
+	}
+
+	#signup {
+		width: 736px;
+		height: 450px;
+		top: -700px;
+	}
+
+	#signup h2 {
+		padding-top: 80px;
+	}
+
+	.form {
+		margin-top: 30px;
+	}
+
+	.pennyarm {
+		top: -200px;
+		left: -100px;
+	}
+
+	.mitzypaw {
+		top: -200px;
+		left: 100px;
+	}
+
+	.credit {
+		padding-top: 10px;
+		font-size: 12px;
+	}
+
+
+	input.rounded {
+		border: 1px solid #ccc;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		font-size: 20px;
+		padding: 4px 7px;
+		outline: 0;
+		-webkit-appearance: none;
+	}
+
+	input.rounded.btn {
+		border: 1px solid #ccc;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		font-size: 20px;
+		padding: 4px 7px;
+		outline: 0;
+		-webkit-appearance: none;
+	}
+
+	input.rounded:focus {
+		border-color: #339933;
+	}
+
+}
